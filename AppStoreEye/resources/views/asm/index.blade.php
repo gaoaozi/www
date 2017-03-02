@@ -156,37 +156,35 @@
 
 				<li style="background-image: url('{{ asset('images/shop.jpg') }}');">
 						<div class="inner">
-							<h1>The jQuery slider that just slides.</h1>
-							<p>就是这个不到3kb的插件！没有奇特的特效或无用的标签。</p>
-							<a class="btn" href="#download">下载</a>
+							<h1>ASM投放建议书</h1>
+							<p>精品分析报告 + 个性化投放策略也制定</p>
+							{{--<a class="btn" href="#download">下载</a>--}}
 						</div>
 					</li>
 
 					<li style="background-image:url('{{ asset('images/wood.jpg') }}');">
 						<div class="inner">
-							<h1>Fluid, flexible, fantastically minimal.</h1>
-							<p>Use any HTML in your slides, extend with CSS. You have full control.</p>
-
-							<a class="btn" href="#download">下载</a>
+							<h1>ASM一站式投放服务</h1>
+							<p>APP前期优化 + 1V1广告投放 + 效果分析与策略迭代</p>
+							{{--<a class="btn" href="#download">下载</a>--}}
 						</div>
 					</li>
 
 					<li style="background-image: url('{{ asset('images/subway.jpg') }}');">
 						<div class="inner">
-							<h1>开源</h1>
-							<p>Unslider的所有源码都托管在GitHub上。</p>
-
-							<a class="btn" href="//github.com/idiot/unslider">参与</a>
+							<h1>ASM权威数据</h1>
+							<p>关键词推荐及打分 + 定制化数据报表 + 官方数据平台</p>
+							{{--<a class="btn" href="//github.com/idiot/unslider">参与</a>--}}
 						</div>
 					</li>
 
-					<li style="background-image: url('{{ asset('images/sunset.jpg') }}'); ">
-						<div class="inner">
-							<h1>Uh, that’s about it.</h1>
-							<p>I just wanted to show you another slide.</p>
-							<a class="btn" href="#download">下载</a>
-						</div>
-					</li>
+					{{--<li style="background-image: url('{{ asset('images/sunset.jpg') }}'); ">--}}
+						{{--<div class="inner">--}}
+							{{--<h1>Uh, that’s about it.</h1>--}}
+							{{--<p>I just wanted to show you another slide.</p>--}}
+							{{--<a class="btn" href="#download">下载</a>--}}
+						{{--</div>--}}
+					{{--</li>--}}
 				</ul>
 				{{--<ol class="dots"><li class="dot active">1</li><li class="dot">2</li><li class="dot">3</li><li class="dot">4</li></ol></div>--}}
 			</div>
