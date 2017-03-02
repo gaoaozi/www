@@ -1,0 +1,55 @@
+html, body {
+  position: relative;
+  font-family: "Microsoft YaHei" ! important;
+  height: 100%;
+}
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color:#000;
+  margin: 0;
+  padding: 0;
+}
+/* navbar*/
+.navbar {
+  width: 100vw;
+  display: flex;
+  background: rgba(0, 82, 156, 1);
+  /* padding: 10px 0px; */
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  margin-top: -113;
+}
+.navbar .logo{
+  display: flex;
+  align-items: center;
+}
+.navbar a {
+  font-size: 14px;
+  color: white;
+  text-decoration:none;
+}
+.navbar .menu {
+  display: flex;
+}
+.navbar .menu > div{
+  margin-right: 30px;
+}
+.navbar .menu > .active{
+  border-bottom: 1px solid rgba(255,255,255,0.5);
+  padding-bottom: 5px;
+  /*text-decoration:underline;*/
+}
+.navbar .menu > .active > a {
+  cursor: default;
+}
+.flex{
+  min-width: 500px;
+  display: flex;
+  justify-content: space-around;
+}
+.flex-row {
+  flex-direction: row;
+}
